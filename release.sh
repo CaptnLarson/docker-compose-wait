@@ -1,5 +1,5 @@
 cargo test
 
-cargo build --release --target=x86_64-unknown-linux-musl
+cargo build --release 
 
-strip ./target/x86_64-unknown-linux-musl/release/wait
+strip ./target/release/wait
